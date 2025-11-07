@@ -14,12 +14,6 @@ DB_DATABASE=lilac_ecommerce
 DB_USERNAME=root
 DB_PASSWORD=
 
-## for sqlite
-DB_CONNECTION=sqlite
-DB_DATABASE=./database/database.sqlite
-##
-touch database/database.sqlite
-
 6. php artisan key:generate
 7. php artisan migrate
 8. php artisan db:seed
