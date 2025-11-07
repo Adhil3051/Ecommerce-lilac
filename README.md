@@ -5,6 +5,21 @@
 3. composer install
 4. npm install
 5. cp .env.example .env
+
+## for mysql
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lilac_ecommerce
+DB_USERNAME=root
+DB_PASSWORD=
+
+## for sqlite
+DB_CONNECTION=sqlite
+DB_DATABASE=./database/database.sqlite
+##
+touch database/database.sqlite
+
 6. php artisan key:generate
 7. php artisan migrate
 8. php artisan db:seed
@@ -19,16 +34,4 @@ password: 123456
 name : user1
 password : 123456
 
-##if using mysql
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=lilac_ecommerce
-DB_USERNAME=root
-DB_PASSWORD=
 
-## for sqlite
-DB_CONNECTION=sqlite
-DB_DATABASE=./database/database.sqlite
-##
-touch database/database.sqlite
