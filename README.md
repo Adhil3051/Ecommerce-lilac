@@ -1,7 +1,7 @@
 # Lilac E-Commerce
 ## Installation
 1. Clone the repository:
-2. cd lilac-ecommerce
+2. cd Ecommerce-lilac
 3. composer install
 4. npm install
 5. cp .env.example .env
